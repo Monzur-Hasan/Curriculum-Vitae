@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #E4F9F5;
+    padding: 20px;
+}
+
+header{
+
+
+}
+/*------profile-image start*/
+.profile-image{
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+/*------profile-image start*/
+
+/*------name start*/
+.header-bio{
+    float: left;
+    padding: 30px;;
+}
+/*------name end*/ 
+
+h1,h2,h3,h4,h5,h6{
+        color: #11999e;
+}
+
+.header-contact{
+
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+        text-decoration: underline;
+        color: tomato;
+
+}
+
+.div-clear{
+    clear: both;
+
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: none;
+}
+
+#personal-section{
+
+}
+
+.content{
+    margin-bottom: 30px;
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 45%;
+    float: left;
+}
+/*---common hr*/
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*---common hr end*/
+
+#work-section{
+
+}
+/*------git project start*/
+.git a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+.git a:hover{
+        text-decoration: underline;
+        color: tomato;
+}
+
+/*------git project end*/
+
+.right-div-p{
+    width: 70%;
+    float: left;
+}
+/*------education start
+-----------------------*/
+.edu-left{
+    float: left;
+    width: 53%;
+   
+}
+
+.edu-right{
+    float: right;
+    width: 45%;
+}
+/*----------------
+education end
+-----------------*/
+
+/*------------------
+footer start
+---------------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+/*------------------
+footer end
+---------------------*/
